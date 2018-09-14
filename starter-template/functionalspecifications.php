@@ -31,39 +31,9 @@ require('format.inc.php')
     <br><br>
   </div>
 
-  <footer class="page-footer red">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Herman Miller Capstone Team</h5>
-
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">The Team:</h5>
-          <ul>
-            <li>Ritwik Biswas</li>
-            <li>Ted Stacy</li>
-            <li>Josh Bhattarai</li>
-            <li>Joe Smith</li>
-            <li>David Xuan</li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-            <h5 class="white-text">Herman Miller Contacts:</h5>
-            <ul>
-                <li>Tom Holcomb</li>
-                <li>Andrea Haggerty</li>
-            </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-      Template provided by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-      </div>
-    </div>
-  </footer>
-
+<?php
+    echo present_footer();
+?>
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
